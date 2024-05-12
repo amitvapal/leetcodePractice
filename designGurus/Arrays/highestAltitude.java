@@ -15,7 +15,7 @@ public class highestAltitude {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        highestAltitude solution = new highestAltitude();
         
         // Example 1
         System.out.println(solution.largestAltitude(new int[]{-5, 1, 5, 0, -7})); // Expected: 1

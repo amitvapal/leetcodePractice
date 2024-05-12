@@ -8,7 +8,7 @@ public class Solution {
   public boolean containsDuplicate(int[] nums) {
     //Edge Case
     if(nums == null || nums.length == 0){
-      return nums[0]
+      return null;
     }
     // TODO: Write your code here
     for(int i = 0; i < nums.length; i++){
